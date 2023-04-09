@@ -14,3 +14,4 @@ class CalcTestCase(SimpleTestCase):
     def test_substract_number(self):
         res = calc.subtract(10,8)
         self.assertEqual(res,2)
+        
